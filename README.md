@@ -41,5 +41,33 @@ Therefore, a simple melody of "Mary Had A Little Lamb" starting at E above middl
 32
 31
 ```
+And convert into: 
+```329.628
+293.665
+261.626
+293.665
+329.628
+329.628
+329.628
+293.665
+293.665
+293.665
+329.628
+329.628
+329.628
+329.628
+293.665
+261.626
+293.665
+329.628
+329.628
+329.628
+329.628
+293.665
+293.665
+329.628
+293.665
+261.626
+```
 The delimiter is a newline for readability and ease of input.
 
