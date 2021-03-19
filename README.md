@@ -9,7 +9,7 @@ The notation is as follows:
 
 - The first digit controls the octave, with middle C at **3**1
 - The notes **C** through **B** are controlled by the second digit, such that F above middle C is at 3**4**
-- The notation *only* uses flats such that F#/G flat above middle C is at -35.
+- The notation *only* uses flats such that F#/G♭ above middle C is at -35.
 
 Therefore, a simple melody of "Mary Had A Little Lamb" starting at E above middle C would be defined as follows: 
 
