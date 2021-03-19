@@ -10,6 +10,7 @@ The notation is as follows:
 - The first digit controls the octave, with middle C at **3**1
 - The notes **C** through **B** are controlled by the second digit, such that F above middle C is at 3**4**
 - The notation *only* uses flats such that F#/G♭ above middle C is at -35.
+- The note **0** returns a frequency of 0hz
 
 Therefore, a simple melody of "Mary Had A Little Lamb" starting at E above middle C would be defined as follows: 
 
@@ -21,12 +22,15 @@ Therefore, a simple melody of "Mary Had A Little Lamb" starting at E above middl
 33
 33
 33
+0
 32
 32
 32
+0
 33
 33
 33
+0
 33
 32
 31
@@ -34,7 +38,7 @@ Therefore, a simple melody of "Mary Had A Little Lamb" starting at E above middl
 33
 33
 33
-33
+0
 32
 32
 33
@@ -42,19 +46,7 @@ Therefore, a simple melody of "Mary Had A Little Lamb" starting at E above middl
 31
 ```
 And convert into: 
-```329.628
-293.665
-261.626
-293.665
-329.628
-329.628
-329.628
-293.665
-293.665
-293.665
-329.628
-329.628
-329.628
+```
 329.628
 293.665
 261.626
@@ -62,7 +54,23 @@ And convert into:
 329.628
 329.628
 329.628
+0.0
+293.665
+293.665
+293.665
+0.0
 329.628
+329.628
+329.628
+0.0
+329.628
+293.665
+261.626
+293.665
+329.628
+329.628
+329.628
+0.0
 293.665
 293.665
 329.628

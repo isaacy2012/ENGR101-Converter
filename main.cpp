@@ -6,6 +6,7 @@ using namespace std;
 //map of notes
 map<int, double> music_notes()	{
     map<int, double> notes;
+    notes.emplace(0, 0);
     notes.emplace(01, 32.70320);
     notes.emplace(-02, 34.64783);
     notes.emplace(02, 36.70810);
@@ -88,8 +89,8 @@ double getFreq(int x) {
     if (search != notes.end()) {
         return search->second;
     } else {
-        cout << "Error: cannot find note: \"" << x << "\", returning 100hz" << endl;
-        return 100.0;
+        cout << "Error: cannot find note: \"" << x << "\", returning 0hz" << endl;
+        return 0.0;
     }
 }
 
