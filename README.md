@@ -1,4 +1,4 @@
-# ENGR101 Frequency Converter
+# Notation to Frequency Converter
 Simple converting program which converts a .txt file "[input].txt" to "frequencies\_[input].txt". Uses a map to convert input notes to frequencies for use in ENGR101 Project 1 Challenge. 
 
 # Example
